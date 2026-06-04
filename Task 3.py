@@ -10,9 +10,8 @@
 
 import numpy as np
 
-# PLACEHOLDER. These two values will obtain the cleaned up data from Task 2
-time = None
-flux = None
+time = x_data
+flux = clean_y
 
 if time is None or flux is None:
     raise NotImplementedError("time and flux needs cleaned up data from Task 2.")
